@@ -17,6 +17,6 @@ function setxrandr --description 'Preset xrandr configurations'
 
         case 'work'
             echo "Setting xrandr to work configuration"
-	    xrandr --output DP-3 --mode 2560x1080 --pos 2880x448 --rotate normal --output DP-1 --mode 1920x1080 --pos 5440x0 --rotate right --output eDP-1 --primary --mode 2880x1620 --pos 0x888 --rotate normal --output DP-2 --off
+            xrandr --output eDP-1 --primary --mode 2880x1620 --pos 0x1383 --rotate normal --output DP-1 --mode 2560x1080 --pos 5440x0 --rotate right --output DP-2 --off --output DP-3 --mode 2560x1080 --pos 2880x877 --rotate normal
     end
 end
